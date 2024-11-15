@@ -68,7 +68,7 @@ st.markdown(
 st.sidebar.image("teamlogo.png", use_column_width=True)
 # Chatbot container with background and header
 st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
-st.header("🤖 elevAI")
+st.header("🤖 EleAi")
 
 # Initialize session state for chat history if it does not exist
 if 'chat_history' not in st.session_state:
